@@ -1,3 +1,5 @@
+//requiring collection to show in mongodb
+const UserModel = require('../model/user')
 class FrontController{
     static home =async(req,res)=>{
         try {
